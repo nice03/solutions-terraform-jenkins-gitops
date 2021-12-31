@@ -15,6 +15,7 @@
  */
 
 pipeline {
+  
   agent {
       label "terraform-exec"
   }
